@@ -1,0 +1,30 @@
+.indexNews__item {
+    border-top: 2px solid $main-c;
+    border-bottom: 2px solid $main-c;
+    padding: 30px;
+    color: $main-c;
+    font-weight: 700;
+    font-size: 2rem;
+    transition: all .5s;
+    word-break: break-all;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $countryBar;
+
+        .indexNews__author {
+            color: $primry-c;
+        }
+
+        color: $primry-c;
+    }
+
+    .indexNews__author {
+        color: $countryBar;
+        font-size: 1rem;
+    }
+
+    img {
+        margin-bottom: 20px;
+    }
+}

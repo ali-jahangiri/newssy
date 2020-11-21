@@ -1,0 +1,27 @@
+.country__item {
+    text-align: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+
+    &:hover .country-item__bar {
+        height: 50%;
+    }
+
+    .country-item__bar {
+        transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+        height: 20%;
+        width: 10px;
+        display: block;
+        border-left: 2px solid $border-c;
+        padding: 0;
+        margin: 0;
+    }
+
+    span {
+        cursor: pointer;
+        padding: 20px;
+    }
+}
